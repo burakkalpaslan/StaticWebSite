@@ -1,0 +1,517 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    padding: 100px;
+    position: fixed;
+}
+
+#navdiv {
+    margin-left: 50px;
+    position: center;
+}
+
+#navmenu {
+    padding-right: 100px;
+    padding: 7px;
+    margin-right: 80px;
+}
+
+    #navmenu li {
+        list-style: none;
+        display: inline;
+        margin: 4px;
+        font-size: 16px;
+        margin-right: 18px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+#logo {
+    margin-left: 150px;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home {
+    background-size: 100% 100%;
+    height: 600px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    object-position: 50% 50%;
+}
+
+header {
+    background-image: url('../img/slider.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#homediv {
+    margin: auto;
+    height: 240px;
+    padding: 5px;
+}
+
+#homedivyedek1 {
+    height: 200px;
+}
+
+#homediv h1 {
+    color: white;
+    margin-bottom: auto;
+    padding-top: 25px;
+    height: 160px;
+    position: center;
+}
+
+#navbtn1 {
+    border-radius: 0;
+}
+
+#navbtn2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+}
+
+#navmenu a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: -15px;
+}
+
+#navmenu li:last-child {
+    margin-right: 50px;
+}
+
+#navmenu li:after {
+    content: "▪";
+    color: yellow;
+    box-sizing: content-box;
+}
+
+#navmenu li:last-child:after {
+    content: none;
+}
+
+#navmenu li:before {
+    background-color: yellow;
+}
+
+#navmenu li a:hover {
+    color: yellow;
+}
+
+#navmenu li a:focus {
+    color: yellow;
+}
+
+footer {
+    margin-bottom: 0px;
+    padding-bottom: -30px;
+    text-align: center;
+}
+
+#navbtn2-2 {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 0;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons2 {
+    margin: auto;
+}
+
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+
+#icon1:hover {
+    background-color: #3b5998;
+}
+
+#icon2:hover {
+    background-color: #00acee;
+}
+
+#icon3:hover {
+    background-color: hotpink;
+}
+
+#icon4:hover {
+    background-color: #c4302b;
+}
+
+.servicesdiv1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+    .servicesdiv1 p {
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+
+servicesrow2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.sendmessagediv {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#form {
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+    height: 50%;
+}
+
+.listref ul li a:hover {
+    color: yellow;
+}
+
+.listref ul {
+    margin-left: 120px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+    .listref ul li {
+        margin-left: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+        .listref ul li a {
+            color: dimgray;
+            padding-left: 12px;
+            padding-right: 0px;
+            text-decoration: none;
+            justify-content: center;
+        }
+
+.listref li:after {
+    padding-left: 30px;
+    content: "▪";
+    color: yellow;
+    box-sizing: content-box;
+}
+
+.listref li:last-child:after {
+    content: none;
+}
+
+.portfoliodiv {
+    text-align: center;
+}
+
+.port2 {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.masked {
+    background: rgba(19, 19, 22, 0.5) repeat-x center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.portnum {
+    width: 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+    .portnum p {
+        color: #fff;
+    }
+
+    .portnum h {
+        color: #fff;
+    }
+
+    .portnum .porthead {
+        color: #fff;
+        z-index: 1000;
+    }
+
+.porthead {
+    margin: 50px 0;
+    text-align: center;
+    color: #000;
+    position: relative;
+}
+
+.number-item {
+    text-align: center;
+    border: 1px solid #FFE600;
+    padding: 20px;
+}
+
+    .number-item .number {
+        display: block;
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .number-item .text {
+        color: #FFE600;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+.aboutitem {
+    margin-bottom: 50px;
+}
+
+    .aboutitem i {
+        font-size: 25px;
+        line-height: 50px;
+        color: #fff;
+    }
+
+    .aboutitem h4,
+    .aboutitem p {
+        margin-left: 70px;
+    }
+
+    .aboutitem h4 {
+        font-weight: normal;
+    }
+
+.circle {
+    background: #FFCF03;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.abouthead {
+    margin: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutitem {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.aboutteam {
+    text-align: center;
+}
+
+.team {
+    list-style: none;
+    display: flex;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.maskedSkills {
+    background: rgba(19, 19, 22, 0.5);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.skills .skillsHeader {
+    text-align: center;
+    color: #fff;
+    z-index: 1000;
+}
+
+.skills {
+    width: 100%;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+    .skills p {
+        color: #fff;
+    }
+
+    .skills h1,
+    .skills h2,
+    .skills h3 {
+        color: #fff;
+    }
+
+.clientsHead {
+    margin: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#clients {
+    text-align: center;
+}
+
+.sozler {
+    background: repeat-x center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+    .sozler p {
+        margin-left: 400px;
+        margin-right: 400px;
+        color: white;
+        font-weight: bold;
+    }
+
+.btn7 {
+    background-color: rgba(244, 235, 235, 0.89);
+    border-color: white;
+    border-radius: 25px;
+    height: 15px;
+}
+
+.contacthead {
+    margin: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.imghowwe {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#img10 {
+    background-image: url('../img/how-we-do-it.jpg');
+}
+
+#img11 {
+    background-image: url('../img/we-are-proud.jpg');
+}
+
+#img12 {
+    background-image: url('../img/skills.jpg');
+}
+
+#img13 {
+    background-image: url('../img/slider.jpg');
+}
+
+#img14 {
+    background-image: url('../img/contact-us.jpg');
+}
+
+.row3 {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*ANIMATION*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Staatliches&display=swap');
+
+h3 {
+    animation: fadeInRight 1s ease-in-out;
+}
+
+h2 {
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+h4 {
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
